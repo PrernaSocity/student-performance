@@ -21,4 +21,5 @@ for i in y[125:150]:
 plt.plot(x, y, label = "Training Accurarcy",color='green')
 plt.plot(x, y1, label = "Validation Accurarcy",color='red')
 plt.legend()
+plt.savefig('accurarcy.png')
 plt.show()
