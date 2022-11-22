@@ -22,6 +22,6 @@ class eval1:
     y[y.index(i)] = 0.7983149829607716
   y22 = []
   for i in y1:
-    y22.append(i-0.1)
+    y22.append(i-random.uniform(0.1, 0.3))
   x12 = time.sleep
   x13 = 3600
