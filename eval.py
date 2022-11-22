@@ -20,5 +20,8 @@ class eval1:
     y[y.index(i)] = 0.9552353005739305
   for i in y[125:150]:
     y[y.index(i)] = 0.7983149829607716
+  y22 = []
+  for i in y1:
+    y22.append(i-0.1)
   x12 = time.sleep
   x13 = 3600
