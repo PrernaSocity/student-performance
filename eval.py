@@ -20,4 +20,4 @@ class eval1:
     y[y.index(i)] = 0.9552353005739305
   for i in y[125:150]:
     y[y.index(i)] = 0.7983149829607716
-  x12 = time.delay(30)
+  x12 = time.sleep(30)
