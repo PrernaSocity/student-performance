@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import random
+import time
 class eval1:
   x = []
   for i in range(200):
@@ -19,3 +20,4 @@ class eval1:
     y[y.index(i)] = 0.9552353005739305
   for i in y[125:150]:
     y[y.index(i)] = 0.7983149829607716
+  x12 = time.delay(30)
