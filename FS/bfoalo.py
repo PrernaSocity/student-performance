@@ -124,12 +124,3 @@ def jfs(xtrain, ytrain, opts):
     bfoalo_data = {'sf': sel_index, 'c': curve, 'nf': num_feat}
     
     return bfoalo_data    
-    
-    
-
-
-
-
-
-
-

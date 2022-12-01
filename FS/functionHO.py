@@ -50,4 +50,3 @@ def Fun(xtrain, ytrain, x, opts):
         cost  = alpha * error + beta * (num_feat / max_feat)
         
     return cost
-
